@@ -73,6 +73,7 @@ public class MoveInventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler,
                 Items[i].gameObject.GetComponent<Image>().color = Color.white;
             }
         }
+
         myTransform.SetSiblingIndex(Items.Count + 1);
         myTransform.SetSiblingIndex(index);
     }

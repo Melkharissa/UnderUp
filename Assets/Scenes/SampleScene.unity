@@ -21534,22 +21534,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf3444cd745eea49af9f7a540413953, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinRandomChance:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  MaxRandomChance:
-  - 0
-  - 0.1
-  - 0.2
-  - 0.3
-  - 0.3
-  - 0.3
-  - 1
+  MinRandomChance: 00000000010000000100000001000000010000000100000001000000
+  MaxRandomChance: 01000000020000000300000004000000050000000600000007000000
   Items:
   - {fileID: 1155785999691652437, guid: 60d1aed0188330c42bec8bad73b5c6ae, type: 3}
   - {fileID: 1155785999691652437, guid: 60d1aed0188330c42bec8bad73b5c6ae, type: 3}

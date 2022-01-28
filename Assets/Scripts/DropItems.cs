@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DropItems : MonoBehaviour
 {
-    public float[] MinRandomChance;
-    public float[] MaxRandomChance;
+    public int[] MinRandomChance;
+    public int[] MaxRandomChance;
     public GameObject[] Items;
 
     public void Drop()
@@ -17,7 +17,7 @@ public class DropItems : MonoBehaviour
         {
             float rx = Random.Range(x - 0.4f, x + 0.4f);
             float ry = Random.Range(y - 0.4f, y + 0.4f);
-            float r = Random.Range(MinRandomChance[i], MaxRandomChance[i]);
+            int r = Random.Range(MinRandomChance[i], MaxRandomChance[i]);
             print(r);
             if (r == MinRandomChance[i])
             {

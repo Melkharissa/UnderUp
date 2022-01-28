@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Skills\Lightning.cs" />
     <Compile Include="Assets\Effects\PoisonSpearsEffect_Script.cs" />
     <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleMove.cs" />
+    <Compile Include="Assets\Scripts\DeleteInventoryItem.cs" />
     <Compile Include="Assets\48 Particle Effect Pack\Script\csParticleEffectPackLightControl.cs" />
     <Compile Include="Assets\Scripts\MoveInventorySlot.cs" />
     <Compile Include="Assets\Scripts\UIRightSkills.cs" />
@@ -88,7 +89,6 @@
     <Compile Include="Assets\Scripts\Skills\BloodLust.cs" />
     <Compile Include="Assets\Effects\MeteorEffect_Script.cs" />
     <Compile Include="Assets\Scripts\Skills\PoisonSpears.cs" />
-    <Compile Include="Assets\Scripts\DeleteInventoryItem.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Import\particlePack_1.1\License.txt" />
